@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>不知道叫什么名好的工作室-游戏下载</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .intro {
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #666;
+        }
+
+        .download-section {
+            text-align: center;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        .android-btn {
+            background-color: #4CAF50; /* 绿色 */
+        }
+
+        .windows-btn {
+            background-color: #2196F3; /* 蓝色 */
+        }
+
+        .download-btn:hover {
+            opacity: 0.9;
+        }
+		.preview {
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>感谢您下载我们的游戏</h1>
+        
+        <div class="intro">
+            <h2>The Tree</h2>
+            <p>如果您在游玩中发现BUG，或有游戏改善建议，请加QQ反映：3866325176</p>
+            <p>最新版本：v1.0.0 | 更新日期：2025年2月</p>
+            <p>支持系统：Windows 10/11 和 Android 9.0 及以上版本</p>
+        </div>
+		<div class="preview">
+            <h2>游戏画面</h2>
+            <img src="asserts/tree-preview.jpg" alt="游戏画面">
+        </div>
+        <div class="download-section">
+            <h2>下载游戏</h2>
+            <a href="files/tree.apk" class="download-btn android-btn" download="tree.apk">
+                下载Android版 (APK)
+            </a>
+            
+            <a href="files/tree.zip" class="download-btn windows-btn" download="tree.zip">
+                下载Windows版 (EXE)
+            </a>
+            
+            <p style="color: #888; margin-top: 20px;">
+                文件大小：Android版 30MB / Windows版 78MB
+            </p>
+        </div>
+    </div>
+</body>
+</html>
